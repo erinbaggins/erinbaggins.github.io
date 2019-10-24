@@ -12,7 +12,6 @@ body {
 
 
 header {
-  /* background-color: #FFED74; */
   float: left;
   width: 35%;
 }
@@ -28,7 +27,6 @@ h1 {
 }
 
 nav {
-  /* background-color: #E8C66A; */
   padding: 20px;
   float: right;
   width: 57%;
@@ -51,19 +49,16 @@ nav a:hover {
 }
 
 #top_wrapper {
-  /* background-color: #FFB7CF; */
   padding: 20px;
 }
 
 #left {
-  /*background-color: violet; */
   padding: 20px;
   float: left;
   width: 35%;
 }
 
 #right {
- /*  background-color: pink; */
   padding: 20px;
   float: right;
   width: 57%;
@@ -85,18 +80,15 @@ nav a:hover {
 }
 
 .aboutus {
-  /* background-color: #FFC675; */
   padding:20px;
 }
 
 
 .cafe {
-  /*background-color: #FFE2B8;*/
   padding:20px;
 }
 
 .coffee {
-  /*background-color: #FFE2B8;*/
   padding:20px;
   float: left;
   width: 35%;
@@ -104,7 +96,6 @@ nav a:hover {
 }
 
 .events {
-  /*background-color: #FFE2B8;*/
   padding:20px;
   float: right;
   width: 57%;
@@ -139,7 +130,6 @@ img {
 
 
 footer {
-  /*background-color: #FF957E; */
   padding:20px;
   font-size: 1.5em;
 }
