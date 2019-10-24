@@ -7,13 +7,14 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   position: relative;
+  margin: 40px;
 }
 
 
 header {
-  background-color: #FFED74;
-  border: 1px black solid;
-  padding:20px;
+  /* background-color: #FFED74; */
+  float: left;
+  width: 35%;
 }
 
 
@@ -21,42 +22,95 @@ h1 {
   color: #E00E56;
   font-family: 'Cinzel', serif;
   font-size: 60px;
-  text-align: center;
   letter-spacing: 5px;
   font-weight: normal;
   
 }
 
 nav {
-  background-color: #E8C66A;
-  border: 1px black solid;
+  /* background-color: #E8C66A; */
+  padding: 20px;
+  float: right;
+  width: 57%;
+}
+
+nav a {
+  color: #000;
+  margin: 0 32px;
+  font-size: 2em;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #E00E56;
+  padding: 20px;
+}
+
+#headwrapper {
+  padding: 20px;
+}
+
+#top_wrapper {
+  /* background-color: #FFB7CF; */
+  padding: 20px;
+}
+
+#left {
+  /*background-color: violet; */
+  padding: 20px;
+  float: left;
+  width: 35%;
+}
+
+#right {
+ /*  background-color: pink; */
+  padding: 20px;
+  float: right;
+  width: 57%;
+}
+
+#bottom_wrapper {
   padding: 20px;
 }
 
 
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.aboutus {
+  /* background-color: #FFC675; */
+  padding:20px;
+}
+
+
 .cafe {
-  background-color: #FFE2B8;
-  border: 1px black solid;
+  /*background-color: #FFE2B8;*/
   padding:20px;
 }
 
 .coffee {
-  background-color: #FFE2B8;
-  border: 1px black solid;
+  /*background-color: #FFE2B8;*/
   padding:20px;
+  float: left;
+  width: 35%;
+  text-align: center;
 }
 
 .events {
-  background-color: #FFE2B8;
-  border: 1px black solid;
+  /*background-color: #FFE2B8;*/
   padding:20px;
+  float: right;
+  width: 57%;
+  text-align: center;
 }
 
-aside {
-  background-color: #FFC675;
-  border: 1px black solid;
-  padding:20px;
-}
 
 
 h2 {
@@ -73,18 +127,21 @@ p {
 }
 
 
+.cafe img{
+  max-width: 500px;
+
+}
+
 img {
-   height: 250px;
-   width: 500px;
+   width: 100%;
+   max-width: 600px;
 }
 
 
 footer {
-  background-color: #FF957E;
-  border: 1px black solid;
+  /*background-color: #FF957E; */
   padding:20px;
   font-size: 1.5em;
-  margin-bottom: 2em;
 }
 
 a {
